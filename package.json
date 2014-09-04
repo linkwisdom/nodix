@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "liandong liu"
+  },
+  "contacts": [
+    "liu@liandong.org"
+  ],
+  "name": "nodix",
+  "description": "node extension",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/linkwisdom/nodix.git"
+  },
+  "main": "./index.js",
+  "keywords": [],
+  "bin": {
+    "nodix": "./bin/nodix"
+  },
+  "dependencies": {
+    "beef": "~0.0.7"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node src/test.js"
+  }
+}
